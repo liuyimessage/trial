@@ -1,13 +1,10 @@
-# Streamlit Cloud Secrets template
-# ─────────────────────────────────────────────────────────────────────────────
-# HOW TO USE:
-#   1. Go to your Streamlit Cloud app → Settings → Secrets
-#   2. Paste the content below (without the # comments)
-#   3. Replace the token value with your actual McKinsey JWT
-#   4. Click Save — the app reloads automatically (no redeployment needed)
-#
-# The JWT token expires every ~24 hours.
-# Refresh it here: https://bbu-radar.apps.mckinsey.com/ → copy new token
-# ─────────────────────────────────────────────────────────────────────────────
+[theme]
+base = "dark"
+primaryColor = "#4f8ef7"
+backgroundColor = "#0f1117"
+secondaryBackgroundColor = "#1a1f2e"
+textColor = "#e8eaf0"
 
-OPENAI_API_KEY = "eyJhbGci..."   # paste your full JWT token here
+[server]
+headless = true
+port = 8501
